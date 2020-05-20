@@ -1,0 +1,9 @@
+C:\Users\steph\source\repos\PetStoreSQLServer\PetStoreDB\bin\Debug\PetStoreDB.dacpac
+C:\Users\steph\source\repos\PetStoreSQLServer\PetStoreDB\bin\Debug\PetStoreDB.dll
+C:\Users\steph\source\repos\PetStoreSQLServer\PetStoreDB\bin\Debug\PetStoreDB.pdb
+C:\Users\steph\source\repos\PetStoreSQLServer\PetStoreDB\obj\Debug\Model.xml
+C:\Users\steph\source\repos\PetStoreSQLServer\PetStoreDB\obj\Debug\refactor.xml
+C:\Users\steph\source\repos\PetStoreSQLServer\PetStoreDB\obj\Debug\postdeploy.sql
+C:\Users\steph\source\repos\PetStoreSQLServer\PetStoreDB\obj\Debug\predeploy.sql
+C:\Users\steph\source\repos\PetStoreSQLServer\PetStoreDB\obj\Debug\PetStoreDB.dll
+C:\Users\steph\source\repos\PetStoreSQLServer\PetStoreDB\obj\Debug\PetStoreDB.pdb
