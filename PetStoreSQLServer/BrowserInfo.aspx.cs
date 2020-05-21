@@ -23,12 +23,22 @@ namespace PetStoreSQLServer
             lblECMAPage.Text = browser.EcmaScriptVersion.ToString();
             lblJavaScriptPage.Text = browser.JavaScript.ToString();
 
-            lblBrowserClass.Text = BrowserInformation.GetBrowser(this);
-            lblBrowserVersionClass.Text = BrowserInformation.GetBrowserVersion(this);
-            lblClientPlatformClass.Text = BrowserInformation.GetClientPlatform(this);
-            lblCLRClass.Text = BrowserInformation.GetCLRVersion(this);
-            lblECMAClass.Text = BrowserInformation.GetECMAVersion(this);
-            lblJavaScriptClass.Text = BrowserInformation.GetJavaScript(this);
+            // FIRST ATTEMPT
+            //lblBrowserClass.Text = BrowserInformation.GetBrowser(this);
+            //lblBrowserVersionClass.Text = BrowserInformation.GetBrowserVersion(this);
+            //lblClientPlatformClass.Text = BrowserInformation.GetClientPlatform(this);
+            //lblCLRClass.Text = BrowserInformation.GetCLRVersion(this);
+            //lblECMAClass.Text = BrowserInformation.GetECMAVersion(this);
+            //lblJavaScriptClass.Text = BrowserInformation.GetJavaScript(this);
+
+            // SECOND ATTEMPT
+            BrowserInformation bi = new BrowserInformation(this);
+            lblBrowserClass.Text = bi.PageBrowser;
+            lblBrowserVersionClass.Text = bi.PageBrowserVersion;
+            lblClientPlatformClass.Text = bi.PageClientPlatform;
+            lblCLRClass.Text = bi.PageCLRVersion;
+            lblECMAClass.Text = bi.PageECMAVersion;
+            lblJavaScriptClass.Text = bi.PageJavaScript;
         }
     }
 }
